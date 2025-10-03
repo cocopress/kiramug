@@ -40,6 +40,7 @@
             border-bottom: 5px solid var(--secondary-color);
         }
 
+       
         header h1 {
             font-family: var(--header-font);
             color: var(--primary-color);
@@ -52,6 +53,21 @@
             margin-top: 10px;
             font-weight: 700;
         }
+
+         .main-logo {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Responsive sizing for different screen sizes */
+@media (max-width: 767px) {
+    .main-logo {
+        max-width: 100px;
+    }
+}
+
 
         .hero {
             padding: 60px 20px;
@@ -189,7 +205,7 @@
 <body>
 
     <header class="container">
-        <h1>Кира Кружкина</h1>
+        <img src="kira_main_logo.png" alt="" class="main-logo">
         <p>Моя волшебная мастерская кружек</p>
     </header>
 
